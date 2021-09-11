@@ -7,9 +7,9 @@ const User = () => {
         <div className="user">
             <div className="userTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
-                <Link>
+                <Link to="/newUser">
+                    <button className="userAddButton">Create</button>
                 </Link>
-                <button className="userAddButton">Create</button>
             </div>
             <div className="userContainer">
                 <div className="userShow">
